@@ -32,7 +32,7 @@ public class RLEncoding
     		i=j;
     	}
     	
-       for(i=0;i<k;i++)
+       for(i=0;i<k;i)
        {
     	   res+=res_c[i];
     	   res+=res_i[i];
