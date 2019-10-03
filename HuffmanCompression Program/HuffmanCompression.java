@@ -14,7 +14,6 @@ class MinHeap
 	MinHeapNode array[];
 }
 
-
 public class HuffmanCompression 
 {
 	MinHeapNode newNode(char data,int freq)
