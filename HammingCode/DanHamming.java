@@ -3,13 +3,13 @@ class DanHamming
 {
 public static void main(String arg[])
 {
-Scanner sc=new Scanner(System.in);
-System.out.println("Enter the 7-bit data code");
-int d[]=new int[7];
-for(int i=0;i<7;i++)
-{
-d[i]=sc.nextInt();
-}
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the 7-bit data code");
+    int d[]=new int[7];
+    for(int i=0;i<7;i++)
+    {
+      d[i]=sc.nextInt();
+    }
 int p[]=new int[4];
 p[0]=d[0]^d[1]^d[3]^d[4]^d[6];
 p[1]=d[0]^d[2]^d[3]^d[5]^d[6];
